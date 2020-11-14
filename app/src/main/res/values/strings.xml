@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="priority_color_description">Priority color display</string>
+    <string name="delete_label">Delete</string>
+
+    <string name="delete_dialog_message">Sure, you want to delete ?</string>
+    <string name="delete_dialog_button">Delete</string>
+    <string name="cancel_dialog_button_label">Cancel</string>
+    <string name="active_label">Active</string>
+    <string name="completed_label">Completed</string>
+    <string name="set_reminder_label">Set Reminder</string>
+    <string name="set_due_date_label">Set Due Date</string>
+    <string name="set_priority_label">Set Priority</string>
+    <string name="set_repetition_label">Set Repetition</string>
+    <string name="p2_label">P2</string>
+    <string name="p1_label">P1</string>
+    <string name="p3_label">P3</string>
+    <string name="p4_label">P4</string>
+    <string name="tab_here_to_add_notes_label">Tab here to add notes</string>
+    <string name="priority_selector_label">Priority selector</string>
+    <string name="priority_default_label">default</string>
+    <string name="save_label">Save</string>
+</resources>

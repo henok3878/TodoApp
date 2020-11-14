@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="8dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_list_background"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="4dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:background="@color/design_default_color_surface"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/task_name_view"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    tools:text="Task Name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/task_date_view"
+                    tools:text="10/2/2010"/>
+
+
+            </LinearLayout>
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mark_check_box"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:button="@drawable/custom_check_box"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

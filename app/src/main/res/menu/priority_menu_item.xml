@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/priority_1"
+        android:title="@string/p1_label"
+        app:showAsAction="ifRoom"
+        app:iconTint="@color/high_priority_color"
+        android:icon="@drawable/ic_priority_solid"/>
+    <item android:id="@+id/priority_2"
+        android:title="@string/p2_label"
+        app:iconTint="@color/medium_priority_color"
+        android:icon="@drawable/ic_priority_solid"/>
+    <item android:id="@+id/priority_3"
+        android:title="@string/p3_label"
+        app:iconTint="@color/low_priority_color"
+        android:icon="@drawable/ic_priority_solid"/>
+    <item android:id="@+id/priority_4"
+        android:title="@string/p4_label"
+        android:icon="@drawable/ic_priority_solid"/>
+</menu>

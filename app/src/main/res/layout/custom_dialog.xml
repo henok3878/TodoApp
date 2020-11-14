@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="4dp"
+        android:text="Notes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:minLines="6"
+        android:maxLines="6"
+        style="Text"
+        android:id="@+id/dialog_notes_input"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        >
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/note_dialog_save"
+            android:text="Cancel"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:id="@+id/note_dialog_cancel"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/note_dialog_save"
+            android:layout_marginStart="16dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:text="Save"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
